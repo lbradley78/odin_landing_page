@@ -77,7 +77,10 @@ button {
 }
 
 .container2 {
+  display: flex;
+  flex-direction: column;
   background-color: white;
+  padding: 16px 15% 8% 15%;
 }
 
 .section2 {
@@ -87,10 +90,13 @@ button {
 
 .section2 > h2 {
   text-align: center;
+  padding-bottom: 24px;
 }
 
 .section2-box-container {
   display: flex;
+  justify-content: space-around;
+  padding: 16px;
 }
 
 .box {
@@ -101,6 +107,6 @@ button {
   border-radius: 8px;
 }
 
-.box > p {
+.container2 p {
   text-align: center;
 }
